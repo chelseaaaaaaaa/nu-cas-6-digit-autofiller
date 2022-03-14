@@ -22,7 +22,7 @@ function leftpad(str, len, pad) {
 
 function totp() {
 
-    var secret = base32tohex('your seed');  
+    var secret = base32tohex('JI3GYIZII5ZHS3TI');  
 
     var digits = 6;
     var period = 30;
